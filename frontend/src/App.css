@@ -8,6 +8,18 @@
   font-family: 'Arial', sans-serif;
 }
 
+.title {
+  color: white;
+  font-size: 50px;
+}
+
+.welcome-message {
+  color: white;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: justify;
+}
+
 .weather-card, .quote-card {
   background: rgba(255, 255, 255, 0.148);
   color: white;
@@ -31,4 +43,30 @@
 .weather-card p, .quote-card p {
   margin: 5px 0;
   font-size: 0.9em;
+}
+
+.temperature {
+  font-size: 50px;
+}
+
+/* Transitions */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-title {
+  animation: fadeIn 1s ease-in forwards;
+  opacity: 0;
+}
+
+.fade-in-content {
+  animation: fadeIn 1s ease-in forwards;
+  animation-delay: 1s; 
+  opacity: 0;
 }

@@ -1,0 +1,5 @@
+# Ignore node_modules and pycache
+frontend/node_modules/
+backend/api/__pycache__/
+backend/api/migrations/__pycache__/
+backend/backend/__pycache__/
