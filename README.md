@@ -36,6 +36,6 @@ b. Install the dependencies
 c. Install react-router-dom
 `npm install react-router-dom`
 
-c. Start the React Application
+d. Start the React Application
 Run the React application
 `npm start`
