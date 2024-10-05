@@ -33,6 +33,9 @@ a. Navigate to the frontend from the root folder
 b. Install the dependencies
 `npm install`
 
+c. Install react-router-dom
+`npm install react-router-dom`
+
 c. Start the React Application
 Run the React application
 `npm start`
